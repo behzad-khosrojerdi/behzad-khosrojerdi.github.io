@@ -1,7 +1,5 @@
 $(document).ready(function(){
-    jQuery('.header').load('header.html');
-    jQuery('.footer').load('footer.html');
-        
-    
+    jQuery('.header').load('./header.html');
+    jQuery('.footer').load('./footer.html');
 });
 
